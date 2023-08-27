@@ -1,0 +1,12 @@
+{
+  "name": "newsletter-sign-up",
+  "short_name": "newsletter-sign-up",
+  "icons": [
+    { "src": "./Moha_tangx logo.png", "sizes": "192x192", "type": "img/png" },
+    { "src": "./Moha_tangx logo.png", "sizes": "192x192", "type": "img/png" }
+  ],
+  "theme_color": "#2f4f4f",
+  "background_color": "#36384e",
+  "display": "standalone"
+}
+s

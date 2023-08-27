@@ -1,0 +1,73 @@
+@import url(./style.css);
+
+.card {
+    height: 70%;
+    width: 35%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.container {
+    width: 80%;
+    height: 90%;
+}
+
+.ball {
+    margin: 2vh 0;
+}
+
+h1 {
+    margin: 4vh 0;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 50px;
+    color: var(--Dark);
+}
+
+p {
+    font-size: 14px;
+    margin: 2vh 0;
+    width: 95%;
+}
+
+button {
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 8vh;
+    height: 7vh;
+    width: 100%;
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+button:hover {
+    background: linear-gradient(to right, tomato, rgb(253, 87, 115));
+    box-shadow: 2px 4px 12px tomato;
+    cursor: pointer;
+}
+@media only screen and (width < 500px) {
+    .card {
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+        max-height: 100svh;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: end;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    button{
+        margin-top: 25svh;
+        min-height: 6svh;
+    }
+
+}
