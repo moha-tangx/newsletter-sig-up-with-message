@@ -317,7 +317,7 @@ input:hover {
 
 }
 
-@media only screen and (width < 500px) {
+@media only screen and (width < 800px) {
     .card {
         height: 100%;
         width: 100%;
