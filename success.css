@@ -49,7 +49,7 @@ button:hover {
     box-shadow: 2px 4px 12px tomato;
     cursor: pointer;
 }
-@media only screen and (width < 700px) {
+@media only screen and (width < 800px) {
     .card {
         border-radius: 0;
         height: 100%;
